@@ -91,6 +91,7 @@ video {
   vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
+
 article,
 aside,
 details,
@@ -104,17 +105,21 @@ nav,
 section {
   display: block;
 }
+
 body {
   line-height: 1;
 }
+
 ol,
 ul {
   list-style: none;
 }
+
 blockquote,
 q {
   quotes: none;
 }
+
 blockquote:before,
 blockquote:after,
 q:before,
@@ -122,6 +127,7 @@ q:after {
   content: "";
   content: none;
 }
+
 table {
   border-collapse: collapse;
   border-spacing: 0;
@@ -136,17 +142,20 @@ table {
 html {
   font-size: 62.5%; /* 1 rem = 10px */
 }
+
 body {
   line-height: 1.5;
   font-size: 1.8rem;
   color: #4f4f4f;
 }
+
 h1,
 h2,
 h3 {
   letter-spacing: 3px;
   text-align: center;
 }
+
 h1 {
   font-size: 5rem;
   color: white;
@@ -176,7 +185,7 @@ section {
 
 /* header/nav styles */
 header {
-  height: 80vh;
+  height: 50vh;
   background-image: url("https://i.ibb.co/SrTrjLr/header.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -197,13 +206,13 @@ nav {
 }
 
 nav .logo {
-  width: 10%;
+  width: 6%;
   display: flex;
   align-items: center;
 }
 
 nav .links {
-  width: 70%;
+  width: 50%;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -294,10 +303,7 @@ footer a {
   width: 50%;
 }
 
-.copyright {
-  text-align: right;
-  margin-right: 10%;
-}
+
 
 /* tablet media query */
 @media(max-width: 800px) {
@@ -375,8 +381,5 @@ footer a {
     text-align: center;
   }
   
-  .copyright {
-    text-align: center;
-    margin: 2.5% 0;
-  }
+  
 }
